@@ -14,3 +14,8 @@ class TestPigLatin(unittest.TestCase):
         piglatin = PigLatin("")
         self.assertEqual("nil",piglatin.translate())
 
+    #User Story 3
+    def test_value_startsWithAVowel_and_wordEndsWithY_returns_wordAppendedWithNay(self):
+        piglatin=PigLatin("any")
+        self.assertEqual("anynay",piglatin.translate())
+
