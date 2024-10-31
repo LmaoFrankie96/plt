@@ -22,3 +22,4 @@ class PigLatin:
                 return self.phrase[2:]+self.phrase[0]+self.phrase[1]+"ay"
             else:
                 return self.phrase[1:]+self.phrase[0]+"ay"
+
