@@ -22,3 +22,7 @@ class TestPigLatin(unittest.TestCase):
     def test_value_startsWithAVowel_and_wordEndsWithConsonantThatIsNotY_returns_wordAppendedWithAy(self):
         piglatin = PigLatin("ask")
         self.assertEqual("askay",piglatin.translate())
+    #User Story 4
+    def test_value_startsWithSingleConsonant_returns_word_WithConsonantAtEnd_AppendedWith_ay (self):
+        piglatin = PigLatin("hello")
+        self.assertEqual("ellohay",piglatin.translate())
