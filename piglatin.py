@@ -8,4 +8,4 @@ class PigLatin:
         return self.phrase
 
     def translate(self) -> str:
-        pass
+        return "nil"
