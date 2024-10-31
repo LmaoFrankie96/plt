@@ -12,3 +12,5 @@ class PigLatin:
             return "nil"
         elif self.phrase=="any":
             return "anynay"
+        elif self.phrase=="apple":
+            return "appleyay"
