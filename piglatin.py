@@ -15,5 +15,7 @@ class PigLatin:
                 return self.phrase+"nay"
             elif self.phrase[-1]=="a" or self.phrase[-1]=="e" or self.phrase[-1]=="i" or self.phrase[-1]=="o" or self.phrase[-1]=="u" :
                 return self.phrase+"yay"
+            elif self.phrase[-1]!="a" or self.phrase[-1]!="e" or self.phrase[-1]!="i" or self.phrase[-1]!="o" or self.phrase[-1]!="u":
+                return self.phrase+"ay"
         else:
             return "Not starting with a vowel"
